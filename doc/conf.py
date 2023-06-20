@@ -8,10 +8,10 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Examen UD4 Junio'
+project = 'Examen Entornos'
 copyright = '2023, Adrián Torres Gómez'
 author = 'Adrián Torres Gómez'
-release = '0.1'
+release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -23,7 +23,6 @@ extensions = [
         'sphinx.ext.mathjax',
         'sphinx.ext.napoleon',
         'sphinx.ext.autosummary',
-        'sphinx.ext.viewcode'
 ]
 
 templates_path = ['_templates']
@@ -34,5 +33,5 @@ language = 'es'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
